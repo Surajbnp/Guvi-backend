@@ -6,7 +6,7 @@ const profileSchema = new mongoose.Schema({
   userId: { type: String },
   age: { type: Number },
   gender: { type: String },
-  dob: { type: String },
+  address: { type: String },
   mob : {type : Number}
 });
 

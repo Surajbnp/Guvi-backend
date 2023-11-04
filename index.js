@@ -14,7 +14,6 @@ app.get("/", (req, res) => {
 
 // all routes containing "/user" will divert to userController
 app.use("/user", userController);
-// app.use("/profile")
 
 app.listen(PORT, async () => {
   try {
